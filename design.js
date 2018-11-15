@@ -22,10 +22,10 @@ event.preventDefault();
 
     pixelCanvas.innerHTML = '';
 
-    for (var row = 0; row < width; ++row) {             //to create the rows
+    for (var x = 0; x < width; ++x) {             //to create the rows
       var newRow = pixelCanvas.insertRow();
 
-      for (var cell = 0; cell < height; ++cell) {       //to create the cells
+      for (var i = 0; i < height; ++i) {       //to create the cells
         var newCell = newRow.insertCell();
 
         newCell.onclick = newColor;
