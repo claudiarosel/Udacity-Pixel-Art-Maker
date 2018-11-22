@@ -30,13 +30,13 @@ event.preventDefault();
     }
   }
 
-  //call the function
+
+});
+
+//call the function
   makeGrid(inputWidth, inputHeight);
 
   //Change the color of the cells when clicked
   function newColor() {
     this.style.background = colorPicker.value;
   }
-
-
-});
